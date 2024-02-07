@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    border: border-box;
+}
+
+.navbar {
+    background-color: black;
+    height: 4.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.nav-logo {
+    height: 3.50rem;
+    width: 4.5rem;
+}
+
+.nav-logo img {
+    height: 3.50rem;
+    width: 4.5rem;
+}
+
+.nav-deliver-one {
+    margin-left: 15px;
+}
+
+.nav-deliver-two {
+    margin-left: 3px;
+}
+
+.nav-icons {
+    display: flex;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    width: 30rem;
+    height: 2.2rem;
+    border-radius: 0.15rem;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 3rem;
+    text-align: center;
+    border-top-left-radius: 0.15rem;
+    border-bottom-left-radius: 0.15rem;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 3rem;
+    background-color: rgba(250, 210, 8, 0.845);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: black;
+    border-top-right-radius: 0.15rem;
+    border-bottom-right-radius: 0.15rem;
+}
+
+.flag-select {
+    background-color: transparent;
+    width: 3rem;
+    height: 2.2rem;
+    text-align: center;
+    /* border-radius: 0.15rem; */
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.hello-signin {
+    line-height: 0.5rem;
+    margin-top: 10px;
+    /* text-align: center; */
+}
+
+.hello {
+    margin-left: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.lists-select {
+    background-color: transparent;
+    width: 10rem;
+    height: 2.2rem;
+    text-align: center;
+    /* border-radius: 0.15rem; */
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.order {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.nav-cart {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-cart i {
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: rgb(19, 91, 122);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.all {
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 2rem;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.border:hover {
+    border: 1px solid white;
+    padding: 0.3rem;
+}
+
+.image-section {
+    background-image: url("./amazon1.jpg");
+    background-size: cover;
+    height: 28rem;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #e2e8e7;
+    margin-top: -12rem;
+
+}
+
+.shop-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e8e7;
+}
+.shop-container .box{
+    background-color: white;
+}
+.shop-container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: white;
+    width: 93.3%;
+    margin-left: 0.6rem;
+    margin-bottom: 2rem;
+}
+.shop-container1 h2{
+    margin-left: 2rem;
+    line-height: 2rem;
+}
+.column {
+    display: flex;
+    justify-content: space-evenly;
+}
+.row{
+    display: flex;
+}
+
+.box {
+    width: 21%;
+    margin: 10px;
+    /* padding: 20px; */
+    background-color: white;
+    padding: 25px;
+}
+.box a {
+    text-decoration: none;
+    color: rgb(0, 149, 255);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    line-height: 1.8rem;
+}
+.sign{
+    background-color: rgb(255, 255, 1);
+    border: 1px solid rgb(255, 213, 0);
+    border-radius: 2px;
+    padding: 0px 80px ;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: bold;
+}
+.start{
+    text-decoration: none;
+    font-size: 0.8rem;   
+}
+.blue-footer{
+    background-color: rgb(45, 58, 80);
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-footer:hover{
+    background-color: rgb(37, 46, 61) ;
+    cursor: pointer;
+}
+.blue-footer a{
+    text-decoration: none;
+    color: white;
+}
+.last-footer{
+    background-color: rgb(44, 66, 105);
+    height: 25rem;
+    display: flex;
+    color: white;
+    line-height: 1.9rem;
+}
+.box{
+    background-color: transparent;
+}
+.last-footer h2{
+    font-size: 1.2rem;
+}
+.last-footer a{
+    text-decoration: none ;
+    color: white;
+    font-size: 1.1rem;
+}
